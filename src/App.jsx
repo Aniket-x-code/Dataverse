@@ -5,10 +5,10 @@ const App = () => {
   return <>
   <div id="dashboard">
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Layout />} />
-      <Route path="dashboard" element={<Dashboard />} />
-    </Routes>
+        <Routes>
+          <Route path="/" element={<Layout />} />
+          <Route path="dashboard" element={<Dashboard />} />
+        </Routes>
     </BrowserRouter>
   </div>
   </>
