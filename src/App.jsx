@@ -1,5 +1,6 @@
-import {BrowserRouter as Router, Switch, Route, BrowserRouter} from 'react-router-dom';
+import {BrowserRouter, Route, Routes } from 'react-router-dom';
 import Dashboard from './pages/Dashboard/Dashboard';
+import Layout from './components/Layout/Layout';
 
 const App = () => {
   return <>
