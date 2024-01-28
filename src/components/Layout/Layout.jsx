@@ -1,5 +1,7 @@
 
+import moment from 'moment'
 import css from './Layout.module.css'
+import { BiSearch as Bisearch } from 'react-icons/bi'
 
 const Layout = () => {
   return ( <div className={css.container}>
@@ -11,6 +13,17 @@ const Layout = () => {
             <div className='gradient-red'></div>
             <div className='gradient-orange'></div>
             <div className='gradient-blue'></div>
+        </div>
+        <div className="css.header">
+          <span>{moment().format("dddd,Do MMM YYYY")}</span>
+
+          <div className="css.searchBar">
+            <Bisearch size={20}/>
+            <input type="text" placeholder='Search here' />
+          </div>
+
+          <div className="css.profile"></div>
+
         </div>
       </div>
 
