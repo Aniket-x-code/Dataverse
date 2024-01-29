@@ -2,10 +2,13 @@
 import moment from 'moment'
 import css from './Layout.module.css'
 import { BiSearch as Bisearch } from 'react-icons/bi'
+import Sidebar from '../Sidebar/Sidebar'
 
 const Layout = () => {
   return ( <div className={css.container}>
-      <div>Sidebar</div>
+      <div>
+      <Sidebar/>
+      </div>
 
 
       <div className={css.dashboard}>
