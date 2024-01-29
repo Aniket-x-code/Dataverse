@@ -1,29 +1,27 @@
-import css from './Sidebar.module.css'
+import css from './Sidebar.module.css';
 import { MdSpaceDashboard } from "react-icons/md";
 import { AiFillCalendar, AiOutlineTable } from "react-icons/ai";
 import { FaTasks } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
-
 const Sidebar = () => {
-  return (
-    <div className={css.container}>
+    return (
+        <div className={css.container}>
 
-          <img src="./Logo.png" height={65} width={65} alt="" />
-          <div className={css.menu}>
-              <NavLink 
-              to="dashboard"
-              className={css.item}
-                title={'Dashboard'} >
-                      < MdSpaceDashboard  size={30}/>
-              </NavLink>
+            <img src="./Logo.png" alt="logo" width={40} height={55} className={css.logo} />
 
-              <NavLink
-                      to="calendar"
-                      className={css.item}
-                      title="Calendar"
-                  >
-                      <AiFillCalendar size={30} />
-                  </NavLink>
+
+            <div className={css.menu}>
+                <NavLink to="dashboard" className={css.item} title={"Dashboard"}>
+                    <MdSpaceDashboard size={30} />
+                </NavLink>
+                
+                <NavLink
+                    to="calendar"
+                    className={css.item}
+                    title="Calendar"
+                >
+                    <AiFillCalendar size={30} />
+                </NavLink>
 
                 <NavLink
                     to="board"
@@ -40,11 +38,9 @@ const Sidebar = () => {
                 >
                     <AiOutlineTable size={30} />
                 </NavLink>
-          </div>
-
-    </div>
-  )
+            </div>
+        </div>
+    )
 }
 
 export default Sidebar
-
