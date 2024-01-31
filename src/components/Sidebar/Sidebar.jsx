@@ -7,7 +7,7 @@ const Sidebar = () => {
     return (
         <div className={css.container}>
 
-            <img src="./Logo.png" alt="logo" width={40} height={55} className={css.logo} />
+            <img src="./Logo.png" alt="logo" className={css.logo} />
 
 
             <div className={css.menu}>

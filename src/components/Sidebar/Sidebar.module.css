@@ -11,16 +11,15 @@
   }
   
   .logo{
-   
-      margin-left: 5rem;
+      width: 45%;
+      max-width: 5rem;
   }
   
   
   
-  .item{
+  .menu{
       margin-top: 4rem;
       display: flex;
-      margin-left: 5rem;
   
       flex-direction: column;
       gap: 5rem;

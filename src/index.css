@@ -38,14 +38,14 @@ body {
   position: absolute;
   width: 200px;
   height: 200px;
-  background: #b815a2;
+  background: #59eb1f;
   filter: blur(90px);
 }
 .gradient-orange {
   position: absolute;
   width: 200px;
   height: 200px;
-  background: rgb(137, 52, 235);
+  background: rgb(99, 26, 218);
   filter: blur(90px);
 }
 .gradient-blue {
