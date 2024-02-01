@@ -9,8 +9,15 @@ const Dashboard = () => {
                 <div className={css.head}>
                   <span>Dahboard</span>
 
-                  <div className={css.duration}>
-
+                  <div className={css.durationButton}>
+                      <select >
+                        <option value="">1 week</option>
+                        <option value="">1 month</option>
+                        <option value="">1 year</option>
+                      </select>
+                  </div>
+                  <div className={css.cards}>
+                    cards
                   </div>
                   
                 </div>
