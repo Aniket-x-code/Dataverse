@@ -27,7 +27,15 @@ body {
   font-family: "Public Sans", sans-serif;
   overflow: hidden;
 }
-
+.glassmorph
+{ margin-top: 1rem;
+ padding: 2rem;
+box-shadow: 0 8px 32px 0 rgba(56, 17, 163, 0.37);
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
 .theme-container {
   background: rgba(0, 0, 0, 0.59);
   border-radius: 20px;
