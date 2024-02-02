@@ -10,9 +10,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout/>}>
-
           <Route path="dashboard" element={<Dashboard/>}/>
-          
         </Route>
 
       </Routes>
