@@ -3,22 +3,22 @@ import moment from "moment/moment";
 export const cardsData = [
   {
     title: "Revenue",
-    change: 24,
+    change: '+24',
     amount: 42056,
   },
   {
     title: "Orders",
-    change: -14,
+    change: '-14',
     amount: 52125.03,
   },
   {
     title: "Expenses",
-    change: 18,
+    change: '+18',
     amount: 1216.5,
   },
   {
     title: "Profit",
-    change: 12,
+    change: '+12',
     amount: 10125.0,
   },
 ];
